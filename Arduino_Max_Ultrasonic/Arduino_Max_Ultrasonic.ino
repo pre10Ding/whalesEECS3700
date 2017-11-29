@@ -83,12 +83,12 @@ void loop() {
 */
   // LED STUFF
 
-  if (medianReading <= 95 && abs(medianReading - oldReading) > 10) {
+  if (medianReading <= 88 && abs(medianReading - oldReading) > 10) {
     Wire.beginTransmission(9);
     Wire.write(medianReading);
     Wire.endTransmission();
     digitalWrite(ledPin, HIGH);
- //   delay(100); // keep the light on for a while after detection
+    delay(100); // keep the light on for a while after detection
   } else {
     digitalWrite(ledPin, LOW);
   }
