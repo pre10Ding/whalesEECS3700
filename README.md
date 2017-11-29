@@ -1,2 +1,1 @@
-# whalesEECS3700
-THE 3 MOST RECENT FILES ARE THE ONES WE NEED
+# IGNORE "responsive1strand8lightsNoButton"
